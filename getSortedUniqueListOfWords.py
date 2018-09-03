@@ -24,7 +24,6 @@ def getListOfWords(filename):
     count = 0
     for line in f1:
         count = count + 1
-        #------------------------------------------------ print("line #", count)
         lineWords = line.split()
         
         for w in lineWords:
